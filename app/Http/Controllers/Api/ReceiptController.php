@@ -13,14 +13,20 @@ class ReceiptController extends Controller
     {
         $data = $request->all();
 
-        $receipt = Receipt::create([
-            'number' => $data['number'],
-            'type' => $data['type'],
-            'status' => 'pending',
-            'total' => $data['total'],
-            'user' => $data['user']['name'] ?: $data['user']['text'],
-            'payload' => $data,
-        ]);
+        try {
+            $receipt = Receipt::create([
+                'number' => $data['number'],
+                'type' => $data['type'],
+                'status' => 'pending',
+                'total' => $data['total'],
+                'user' => $data['user']['name'] ?: $data['user']['text'],
+                'payload' => $data,
+            ]);
+        } catch (\Throwable $e) {
+            return response()->json([
+                'message' => $e->getMessage(),
+            ], 422);
+        }
 
         return response()->json([
             'id' => $receipt->id,
