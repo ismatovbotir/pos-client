@@ -36,4 +36,10 @@ return [
         'chat_id' => env('TELEGRAM_CHAT_ID'),
     ],
 
+    'server' => [
+        'address' => env('SERVER_ADDRESS'),
+        'header_key' => env('SERVER_HEADER_KEY'),
+        'header_value' => env('SERVER_HEADER_VALUE'),
+    ],
+
 ];

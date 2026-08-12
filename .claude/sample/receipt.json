@@ -1,0 +1,84 @@
+{
+    "shop": 5,
+    "pos": 1,
+    "barcode": "12345",
+    "card": "1234567890",
+    "openDate": "06.08.26",
+    "openTime": "08:52:51",
+    "closeDate": "",
+    "number": "121",
+    "total":0,
+    "user": {
+        "id": 1,
+        "name": "��������� �������������",
+        "text": "��������� �������������"
+    },
+    "payments": [
+        {
+            "name": "��������",
+            "value": 68.68
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 123,
+                "art": "A123",
+                "name": "����� ����� ������ ��� ������� � ��������",
+                "class_code": "��� 12345",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "46057921",
+            "qty": 0.723,
+            "storno": 0,
+            "sum": 339.09,
+            "sumR": 0,
+            "sumWD": 249.49,
+            "sumWT": 34.23,
+            "totalSum": 249.49
+        },
+        {
+            "item": {
+                "id": 22,
+                "art": "A334",
+                "name": "����� 0,75",
+                "class_code": "��� 22223",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "5010106113127",
+            "qty": 1,
+            "storno": 0,
+            "sum": 4500,
+            "sumR": 0,
+            "sumWD": 4500,
+            "sumWT": 34.23,
+            "totalSum": 4500
+        },
+        {
+            "item": {
+                "id": 22,
+                "art": "A334",
+                "name": "����� 0,75",
+                "class_code": "��� 22223",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "5345646123456",
+            "qty": 2,
+            "storno": 0,
+            "sum": 1000,
+            "sumR": 0,
+            "sumWD": 1000,
+            "sumWT": 34.23,
+            "totalSum": 1000
+        }
+    ],
+    "qtyBuys": 4,
+    "qtyPositions": 3,
+    "session": 1,
+    "type": 1,
+    "aos": {},
+    "fiscal": ""
+}

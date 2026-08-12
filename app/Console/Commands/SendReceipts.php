@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Receipt;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Http;
 
 class SendReceipts extends Command
 {
@@ -13,6 +14,16 @@ class SendReceipts extends Command
 
     public function handle(): int
     {
+        $address = config('services.server.address');
+        $headerKey = config('services.server.header_key');
+        $headerValue = config('services.server.header_value');
+
+        if (! $address || ! $headerKey || ! $headerValue) {
+            $this->error('SERVER_ADDRESS, SERVER_HEADER_KEY or SERVER_HEADER_VALUE is not set in .env');
+
+            return self::FAILURE;
+        }
+
         $receipts = Receipt::where('sync', false)->get();
 
         if ($receipts->isEmpty()) {
@@ -23,8 +34,12 @@ class SendReceipts extends Command
 
         foreach ($receipts as $receipt) {
             try {
-                // TODO: replace with the actual call that sends $receipt->payload
-                // to the destination service (e.g. fiscal/OFD server).
+                $response = Http::withHeaders([$headerKey => $headerValue])
+                    ->post($address, $receipt->payload);
+
+                if ($response->failed()) {
+                    throw new \RuntimeException($response->body());
+                }
 
                 $receipt->update([
                     'sync' => true,
