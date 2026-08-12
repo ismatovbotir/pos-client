@@ -11,6 +11,7 @@ class Receipt extends Model
 
     protected $fillable = [
         'number',
+        'close_date',
         'type',
         'status',
         'total',
@@ -22,6 +23,7 @@ class Receipt extends Model
     ];
 
     protected $casts = [
+        'close_date' => 'date',
         'payload' => 'array',
         'sync' => 'boolean',
         'total' => 'decimal:3',

@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('receipts', function (Blueprint $table) {
             $table->id();
             $table->string('number');
+            $table->date('close_date')->nullable();
             $table->string('type');
             $table->string('status');
             $table->decimal('total',15,3)->default(0);

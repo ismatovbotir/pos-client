@@ -14,6 +14,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Number</th>
+                    <th>Close Date</th>
                     <th>Type</th>
                     <th>Status</th>
                     <th>Total</th>
@@ -29,6 +30,7 @@
                     <tr wire:key="receipt-{{ $receipt->id }}">
                         <td>{{ $receipt->id }}</td>
                         <td>{{ $receipt->number }}</td>
+                        <td>{{ $receipt->close_date?->format('Y-m-d') }}</td>
                         <td>{{ $receipt->type }}</td>
                         <td><span class="status status-{{ $receipt->status }}">{{ $receipt->status }}</span></td>
                         <td>{{ $receipt->total }}</td>
@@ -40,7 +42,7 @@
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="10" class="empty">No receipts yet.</td>
+                        <td colspan="11" class="empty">No receipts yet.</td>
                     </tr>
                 @endforelse
             </tbody>

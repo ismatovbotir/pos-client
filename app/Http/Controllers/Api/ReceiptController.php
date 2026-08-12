@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\Receipt;
+use Carbon\Carbon;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
@@ -16,6 +17,7 @@ class ReceiptController extends Controller
         try {
             $receipt = Receipt::create([
                 'number' => $data['number'],
+                'close_date' => $data['closeDate'] ? Carbon::createFromFormat('d.m.y', $data['closeDate'])->startOfDay() : null,
                 'type' => $data['type'],
                 'status' => 'pending',
                 'total' => $data['total'],
