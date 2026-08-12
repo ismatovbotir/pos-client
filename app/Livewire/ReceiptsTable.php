@@ -9,6 +9,18 @@ class ReceiptsTable extends Component
 {
     public string $sync = 'false';
 
+    public ?int $selectedReceiptId = null;
+
+    public function show(int $id): void
+    {
+        $this->selectedReceiptId = $id;
+    }
+
+    public function closeModal(): void
+    {
+        $this->selectedReceiptId = null;
+    }
+
     public function render()
     {
         $receipts = Receipt::when($this->sync !== 'all', function ($query) {
@@ -17,6 +29,9 @@ class ReceiptsTable extends Component
 
         return view('livewire.receipts-table', [
             'receipts' => $receipts,
+            'selectedReceipt' => $this->selectedReceiptId
+                ? Receipt::find($this->selectedReceiptId)
+                : null,
         ]);
     }
 }
