@@ -25,10 +25,24 @@ class SendReceipts extends Command
             return self::FAILURE;
         }
 
+        $address = trim($address);
+
+        if (! str_contains($address, '://')) {
+            $address = 'http://'.ltrim($address, '/');
+        }
+
+        $parts = parse_url($address);
+
+        if (empty($parts['host'])) {
+            $this->error("SERVER_ADDRESS is invalid: {$address}");
+
+            return self::FAILURE;
+        }
+
         if ($port) {
-            $parts = parse_url($address);
-            $url = ($parts['scheme'] ?? 'http').'://'.($parts['host'] ?? $address).':'.$port;
-            $address = $url.($parts['path'] ?? '').(isset($parts['query']) ? '?'.$parts['query'] : '');
+            $address = $parts['scheme'].'://'.$parts['host'].':'.$port
+                .($parts['path'] ?? '')
+                .(isset($parts['query']) ? '?'.$parts['query'] : '');
         }
 
         $receipts = Receipt::where('sync', false)->get();
