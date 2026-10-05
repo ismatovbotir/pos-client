@@ -1,0 +1,124 @@
+{
+    "shop": 8,
+    "pos": 1,
+    "barcode": "70210",
+    "card": "4995123840",
+    "openDate": "07.08.26",
+    "openTime": "07:12:50",
+    "closeDate": "07.08.26",
+    "closeTime": "07:22:45",
+    "number": "108",
+    "user": {
+        "id": 3,
+        "name": "Сидорова Ольга",
+        "text": "Сидорова Ольга"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 3432.43
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 110,
+                "art": "A110",
+                "name": "Chocolate bar",
+                "class_code": "КЛ 10010",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6677308194027",
+            "qty": 2.3,
+            "storno": 0,
+            "sum": 1408.75,
+            "sumR": 0,
+            "sumWD": 1211.52,
+            "sumWT": 145.38,
+            "totalSum": 1211.52
+        },
+        {
+            "item": {
+                "id": 105,
+                "art": "A105",
+                "name": "Cheese 100g",
+                "class_code": "КЛ 10005",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "9699714244286",
+            "qty": 0.5,
+            "storno": 0,
+            "sum": 101.15,
+            "sumR": 0,
+            "sumWD": 101.15,
+            "sumWT": 12.14,
+            "totalSum": 101.15
+        },
+        {
+            "item": {
+                "id": 110,
+                "art": "A110",
+                "name": "Chocolate bar",
+                "class_code": "КЛ 10010",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "2480873254442",
+            "qty": 2,
+            "storno": 0,
+            "sum": 193,
+            "sumR": 0,
+            "sumWD": 193,
+            "sumWT": 23.16,
+            "totalSum": 193
+        },
+        {
+            "item": {
+                "id": 106,
+                "art": "A106",
+                "name": "Apple 1kg",
+                "class_code": "КЛ 10006",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "1984715301896",
+            "qty": 1.2,
+            "storno": 0,
+            "sum": 1704.84,
+            "sumR": 0,
+            "sumWD": 1534.36,
+            "sumWT": 184.12,
+            "totalSum": 1534.36
+        },
+        {
+            "item": {
+                "id": 106,
+                "art": "A106",
+                "name": "Apple 1kg",
+                "class_code": "КЛ 10006",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6278704398227",
+            "qty": 3,
+            "storno": 0,
+            "sum": 392.4,
+            "sumR": 0,
+            "sumWD": 392.4,
+            "sumWT": 47.09,
+            "totalSum": 392.4
+        }
+    ],
+    "qtyBuys": 9,
+    "qtyPositions": 5,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 3800.14,
+    "sumWithDiscs": 3432.43,
+    "total": 3432.43,
+    "aos": {},
+    "fiscal": "2606182983542"
+}

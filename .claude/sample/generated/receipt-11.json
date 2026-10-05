@@ -1,0 +1,70 @@
+{
+    "shop": 2,
+    "pos": 2,
+    "barcode": "24056",
+    "card": "6525236180",
+    "openDate": "07.08.26",
+    "openTime": "06:11:50",
+    "closeDate": "07.08.26",
+    "closeTime": "06:23:11",
+    "number": "111",
+    "user": {
+        "id": 2,
+        "name": "Петров Алексей",
+        "text": "Петров Алексей"
+    },
+    "payments": [
+        {
+            "name": "Смешанная",
+            "value": 561.21
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 102,
+                "art": "A102",
+                "name": "Bread white",
+                "class_code": "КЛ 10002",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "1706552018581",
+            "qty": 0.5,
+            "storno": 0,
+            "sum": 254.85,
+            "sumR": 0,
+            "sumWD": 254.85,
+            "sumWT": 30.58,
+            "totalSum": 254.85
+        },
+        {
+            "item": {
+                "id": 102,
+                "art": "A102",
+                "name": "Bread white",
+                "class_code": "КЛ 10002",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "3524164419964",
+            "qty": 0.3,
+            "storno": 0,
+            "sum": 306.36,
+            "sumR": 0,
+            "sumWD": 306.36,
+            "sumWT": 36.76,
+            "totalSum": 306.36
+        }
+    ],
+    "qtyBuys": 0.8,
+    "qtyPositions": 2,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 561.21,
+    "sumWithDiscs": 561.21,
+    "total": 561.21,
+    "aos": {},
+    "fiscal": "2511920694195"
+}

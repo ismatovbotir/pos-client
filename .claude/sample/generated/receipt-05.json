@@ -1,0 +1,106 @@
+{
+    "shop": 1,
+    "pos": 2,
+    "barcode": "82273",
+    "card": "9164018550",
+    "openDate": "01.08.26",
+    "openTime": "07:59:12",
+    "closeDate": "01.08.26",
+    "closeTime": "08:12:21",
+    "number": "105",
+    "user": {
+        "id": 1,
+        "name": "Иванова Мария",
+        "text": "Иванова Мария"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 5377.67
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 105,
+                "art": "A105",
+                "name": "Cheese 100g",
+                "class_code": "КЛ 10005",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "3821023204019",
+            "qty": 2,
+            "storno": 0,
+            "sum": 2941.8,
+            "sumR": 0,
+            "sumWD": 2647.62,
+            "sumWT": 317.71,
+            "totalSum": 2647.62
+        },
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "7452839452620",
+            "qty": 1.5,
+            "storno": 0,
+            "sum": 417,
+            "sumR": 0,
+            "sumWD": 417,
+            "sumWT": 50.04,
+            "totalSum": 417
+        },
+        {
+            "item": {
+                "id": 104,
+                "art": "A104",
+                "name": "Butter 200g",
+                "class_code": "КЛ 10004",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6605553188445",
+            "qty": 2.4,
+            "storno": 0,
+            "sum": 2115.84,
+            "sumR": 0,
+            "sumWD": 2010.05,
+            "sumWT": 241.21,
+            "totalSum": 2010.05
+        },
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "9517136617392",
+            "qty": 2,
+            "storno": 0,
+            "sum": 303,
+            "sumR": 0,
+            "sumWD": 303,
+            "sumWT": 36.36,
+            "totalSum": 303
+        }
+    ],
+    "qtyBuys": 7.9,
+    "qtyPositions": 4,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 5777.64,
+    "sumWithDiscs": 5377.67,
+    "total": 5377.67,
+    "aos": {},
+    "fiscal": "7658683232491"
+}

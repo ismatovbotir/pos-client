@@ -1,0 +1,70 @@
+{
+    "shop": 7,
+    "pos": 2,
+    "barcode": "62513",
+    "card": "4049424219",
+    "openDate": "30.07.26",
+    "openTime": "05:23:50",
+    "closeDate": "30.07.26",
+    "closeTime": "05:26:29",
+    "number": "117",
+    "user": {
+        "id": 2,
+        "name": "Петров Алексей",
+        "text": "Петров Алексей"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 2070.63
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 110,
+                "art": "A110",
+                "name": "Chocolate bar",
+                "class_code": "КЛ 10010",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "4625513090455",
+            "qty": 1.2,
+            "storno": 0,
+            "sum": 269.4,
+            "sumR": 0,
+            "sumWD": 269.4,
+            "sumWT": 32.33,
+            "totalSum": 269.4
+        },
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "1876856198802",
+            "qty": 2.8,
+            "storno": 0,
+            "sum": 1876.28,
+            "sumR": 0,
+            "sumWD": 1801.23,
+            "sumWT": 216.15,
+            "totalSum": 1801.23
+        }
+    ],
+    "qtyBuys": 4,
+    "qtyPositions": 2,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 2145.68,
+    "sumWithDiscs": 2070.63,
+    "total": 2070.63,
+    "aos": {},
+    "fiscal": "6680225710959"
+}

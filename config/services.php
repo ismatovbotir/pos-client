@@ -38,6 +38,7 @@ return [
 
     'server' => [
         'address' => env('SERVER_ADDRESS'),
+        'port' => env('REMOTE_SERVER_PORT'),
         'header_key' => env('SERVER_HEADER_KEY'),
         'header_value' => env('SERVER_HEADER_VALUE'),
     ],

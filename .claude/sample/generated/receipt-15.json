@@ -1,0 +1,106 @@
+{
+    "shop": 7,
+    "pos": 1,
+    "barcode": "95121",
+    "card": "7132901301",
+    "openDate": "30.07.26",
+    "openTime": "06:35:36",
+    "closeDate": "30.07.26",
+    "closeTime": "06:41:51",
+    "number": "115",
+    "user": {
+        "id": 2,
+        "name": "Петров Алексей",
+        "text": "Петров Алексей"
+    },
+    "payments": [
+        {
+            "name": "Смешанная",
+            "value": 5991.96
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 101,
+                "art": "A101",
+                "name": "Coca-Cola 0.5",
+                "class_code": "КЛ 10001",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6556862561940",
+            "qty": 2,
+            "storno": 0,
+            "sum": 427.6,
+            "sumR": 0,
+            "sumWD": 393.39,
+            "sumWT": 47.21,
+            "totalSum": 393.39
+        },
+        {
+            "item": {
+                "id": 102,
+                "art": "A102",
+                "name": "Bread white",
+                "class_code": "КЛ 10002",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "2995673817729",
+            "qty": 2.7,
+            "storno": 0,
+            "sum": 3192.75,
+            "sumR": 0,
+            "sumWD": 3192.75,
+            "sumWT": 383.13,
+            "totalSum": 3192.75
+        },
+        {
+            "item": {
+                "id": 104,
+                "art": "A104",
+                "name": "Butter 200g",
+                "class_code": "КЛ 10004",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "2320162716944",
+            "qty": 1,
+            "storno": 0,
+            "sum": 798.9,
+            "sumR": 0,
+            "sumWD": 798.9,
+            "sumWT": 95.87,
+            "totalSum": 798.9
+        },
+        {
+            "item": {
+                "id": 102,
+                "art": "A102",
+                "name": "Bread white",
+                "class_code": "КЛ 10002",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "7433379803194",
+            "qty": 2.8,
+            "storno": 0,
+            "sum": 1606.92,
+            "sumR": 0,
+            "sumWD": 1606.92,
+            "sumWT": 192.83,
+            "totalSum": 1606.92
+        }
+    ],
+    "qtyBuys": 8.5,
+    "qtyPositions": 4,
+    "session": 2,
+    "type": 1,
+    "status": "success",
+    "sum": 6026.17,
+    "sumWithDiscs": 5991.96,
+    "total": 5991.96,
+    "aos": {},
+    "fiscal": "2953351416821"
+}

@@ -1,0 +1,1618 @@
+[
+    {
+        "shop": 2,
+        "pos": 4,
+        "barcode": "74993",
+        "card": "2578456139",
+        "openDate": "07.08.26",
+        "openTime": "09:28:56",
+        "closeDate": "07.08.26",
+        "closeTime": "09:35:51",
+        "number": "101",
+        "user": {
+            "id": 1,
+            "name": "Иванова Мария",
+            "text": "Иванова Мария"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 874.5
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 109,
+                    "art": "A109",
+                    "name": "Tea black 100g",
+                    "class_code": "КЛ 10009",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6661305051003",
+                "qty": 2.2,
+                "storno": 0,
+                "sum": 874.5,
+                "sumR": 0,
+                "sumWD": 874.5,
+                "sumWT": 104.94,
+                "totalSum": 874.5
+            }
+        ],
+        "qtyBuys": 2.2,
+        "qtyPositions": 1,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 874.5,
+        "sumWithDiscs": 874.5,
+        "total": 874.5,
+        "aos": {},
+        "fiscal": "7045425604445"
+    },
+    {
+        "shop": 4,
+        "pos": 2,
+        "barcode": "50824",
+        "card": "6966003190",
+        "openDate": "30.07.26",
+        "openTime": "07:42:17",
+        "closeDate": "30.07.26",
+        "closeTime": "07:43:42",
+        "number": "102",
+        "user": {
+            "id": 3,
+            "name": "Сидорова Ольга",
+            "text": "Сидорова Ольга"
+        },
+        "payments": [
+            {
+                "name": "Карта",
+                "value": 596.96
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 108,
+                    "art": "A108",
+                    "name": "Sugar 1kg",
+                    "class_code": "КЛ 10008",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "7716335008759",
+                "qty": 0.7,
+                "storno": 0,
+                "sum": 596.96,
+                "sumR": 0,
+                "sumWD": 596.96,
+                "sumWT": 71.64,
+                "totalSum": 596.96
+            }
+        ],
+        "qtyBuys": 0.7,
+        "qtyPositions": 1,
+        "session": 2,
+        "type": 1,
+        "status": "success",
+        "sum": 596.96,
+        "sumWithDiscs": 596.96,
+        "total": 596.96,
+        "aos": {},
+        "fiscal": "3264667611455"
+    },
+    {
+        "shop": 2,
+        "pos": 4,
+        "barcode": "43000",
+        "card": "4240773351",
+        "openDate": "01.08.26",
+        "openTime": "09:28:18",
+        "closeDate": "01.08.26",
+        "closeTime": "09:34:09",
+        "number": "103",
+        "user": {
+            "id": 3,
+            "name": "Сидорова Ольга",
+            "text": "Сидорова Ольга"
+        },
+        "payments": [
+            {
+                "name": "Смешанная",
+                "value": 2183.99
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 104,
+                    "art": "A104",
+                    "name": "Butter 200g",
+                    "class_code": "КЛ 10004",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6909278364162",
+                "qty": 1.7,
+                "storno": 0,
+                "sum": 2183.99,
+                "sumR": 0,
+                "sumWD": 2183.99,
+                "sumWT": 262.08,
+                "totalSum": 2183.99
+            }
+        ],
+        "qtyBuys": 1.7,
+        "qtyPositions": 1,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 2183.99,
+        "sumWithDiscs": 2183.99,
+        "total": 2183.99,
+        "aos": {},
+        "fiscal": "5770809154607"
+    },
+    {
+        "shop": 5,
+        "pos": 4,
+        "barcode": "10727",
+        "card": "2568552493",
+        "openDate": "03.08.26",
+        "openTime": "07:46:02",
+        "closeDate": "03.08.26",
+        "closeTime": "07:53:06",
+        "number": "104",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Карта",
+                "value": 3538.62
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 109,
+                    "art": "A109",
+                    "name": "Tea black 100g",
+                    "class_code": "КЛ 10009",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "2592193042791",
+                "qty": 2.9,
+                "storno": 0,
+                "sum": 2140.49,
+                "sumR": 0,
+                "sumWD": 2054.87,
+                "sumWT": 246.58,
+                "totalSum": 2054.87
+            },
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6896625842329",
+                "qty": 2.5,
+                "storno": 0,
+                "sum": 1483.75,
+                "sumR": 0,
+                "sumWD": 1483.75,
+                "sumWT": 178.05,
+                "totalSum": 1483.75
+            }
+        ],
+        "qtyBuys": 5.4,
+        "qtyPositions": 2,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 3624.24,
+        "sumWithDiscs": 3538.62,
+        "total": 3538.62,
+        "aos": {},
+        "fiscal": "1831180984044"
+    },
+    {
+        "shop": 1,
+        "pos": 2,
+        "barcode": "82273",
+        "card": "9164018550",
+        "openDate": "01.08.26",
+        "openTime": "07:59:12",
+        "closeDate": "01.08.26",
+        "closeTime": "08:12:21",
+        "number": "105",
+        "user": {
+            "id": 1,
+            "name": "Иванова Мария",
+            "text": "Иванова Мария"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 5377.67
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 105,
+                    "art": "A105",
+                    "name": "Cheese 100g",
+                    "class_code": "КЛ 10005",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "3821023204019",
+                "qty": 2,
+                "storno": 0,
+                "sum": 2941.8,
+                "sumR": 0,
+                "sumWD": 2647.62,
+                "sumWT": 317.71,
+                "totalSum": 2647.62
+            },
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "7452839452620",
+                "qty": 1.5,
+                "storno": 0,
+                "sum": 417,
+                "sumR": 0,
+                "sumWD": 417,
+                "sumWT": 50.04,
+                "totalSum": 417
+            },
+            {
+                "item": {
+                    "id": 104,
+                    "art": "A104",
+                    "name": "Butter 200g",
+                    "class_code": "КЛ 10004",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6605553188445",
+                "qty": 2.4,
+                "storno": 0,
+                "sum": 2115.84,
+                "sumR": 0,
+                "sumWD": 2010.05,
+                "sumWT": 241.21,
+                "totalSum": 2010.05
+            },
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "9517136617392",
+                "qty": 2,
+                "storno": 0,
+                "sum": 303,
+                "sumR": 0,
+                "sumWD": 303,
+                "sumWT": 36.36,
+                "totalSum": 303
+            }
+        ],
+        "qtyBuys": 7.9,
+        "qtyPositions": 4,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 5777.64,
+        "sumWithDiscs": 5377.67,
+        "total": 5377.67,
+        "aos": {},
+        "fiscal": "7658683232491"
+    },
+    {
+        "shop": 8,
+        "pos": 3,
+        "barcode": "94553",
+        "card": "7159089097",
+        "openDate": "05.08.26",
+        "openTime": "09:37:45",
+        "closeDate": "05.08.26",
+        "closeTime": "09:45:36",
+        "number": "106",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Карта",
+                "value": 5857.49
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "9717162399345",
+                "qty": 2.4,
+                "storno": 0,
+                "sum": 2186.16,
+                "sumR": 0,
+                "sumWD": 2186.16,
+                "sumWT": 262.34,
+                "totalSum": 2186.16
+            },
+            {
+                "item": {
+                    "id": 110,
+                    "art": "A110",
+                    "name": "Chocolate bar",
+                    "class_code": "КЛ 10010",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1741648048234",
+                "qty": 2.1,
+                "storno": 0,
+                "sum": 1510.32,
+                "sumR": 0,
+                "sumWD": 1510.32,
+                "sumWT": 181.24,
+                "totalSum": 1510.32
+            },
+            {
+                "item": {
+                    "id": 104,
+                    "art": "A104",
+                    "name": "Butter 200g",
+                    "class_code": "КЛ 10004",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1541129894772",
+                "qty": 1.8,
+                "storno": 0,
+                "sum": 2374.74,
+                "sumR": 0,
+                "sumWD": 2161.01,
+                "sumWT": 259.32,
+                "totalSum": 2161.01
+            }
+        ],
+        "qtyBuys": 6.3,
+        "qtyPositions": 3,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 6071.22,
+        "sumWithDiscs": 5857.49,
+        "total": 5857.49,
+        "aos": {},
+        "fiscal": "9926499589900"
+    },
+    {
+        "shop": 1,
+        "pos": 4,
+        "barcode": "80070",
+        "card": "8696456880",
+        "openDate": "11.08.26",
+        "openTime": "10:16:33",
+        "closeDate": "11.08.26",
+        "closeTime": "10:28:38",
+        "number": "107",
+        "user": {
+            "id": 3,
+            "name": "Сидорова Ольга",
+            "text": "Сидорова Ольга"
+        },
+        "payments": [
+            {
+                "name": "Смешанная",
+                "value": 7268.35
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "8115422898029",
+                "qty": 2.9,
+                "storno": 0,
+                "sum": 3153.75,
+                "sumR": 0,
+                "sumWD": 3153.75,
+                "sumWT": 378.45,
+                "totalSum": 3153.75
+            },
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1617019102540",
+                "qty": 0.4,
+                "storno": 0,
+                "sum": 173,
+                "sumR": 0,
+                "sumWD": 173,
+                "sumWT": 20.76,
+                "totalSum": 173
+            },
+            {
+                "item": {
+                    "id": 108,
+                    "art": "A108",
+                    "name": "Sugar 1kg",
+                    "class_code": "КЛ 10008",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "4266946203280",
+                "qty": 2.5,
+                "storno": 0,
+                "sum": 3542.25,
+                "sumR": 0,
+                "sumWD": 3542.25,
+                "sumWT": 425.07,
+                "totalSum": 3542.25
+            },
+            {
+                "item": {
+                    "id": 101,
+                    "art": "A101",
+                    "name": "Coca-Cola 0.5",
+                    "class_code": "КЛ 10001",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "5114147472305",
+                "qty": 1.9,
+                "storno": 0,
+                "sum": 424.84,
+                "sumR": 0,
+                "sumWD": 399.35,
+                "sumWT": 47.92,
+                "totalSum": 399.35
+            }
+        ],
+        "qtyBuys": 7.7,
+        "qtyPositions": 4,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 7293.84,
+        "sumWithDiscs": 7268.35,
+        "total": 7268.35,
+        "aos": {},
+        "fiscal": "4661379511805"
+    },
+    {
+        "shop": 8,
+        "pos": 1,
+        "barcode": "70210",
+        "card": "4995123840",
+        "openDate": "07.08.26",
+        "openTime": "07:12:50",
+        "closeDate": "07.08.26",
+        "closeTime": "07:22:45",
+        "number": "108",
+        "user": {
+            "id": 3,
+            "name": "Сидорова Ольга",
+            "text": "Сидорова Ольга"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 3432.43
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 110,
+                    "art": "A110",
+                    "name": "Chocolate bar",
+                    "class_code": "КЛ 10010",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6677308194027",
+                "qty": 2.3,
+                "storno": 0,
+                "sum": 1408.75,
+                "sumR": 0,
+                "sumWD": 1211.52,
+                "sumWT": 145.38,
+                "totalSum": 1211.52
+            },
+            {
+                "item": {
+                    "id": 105,
+                    "art": "A105",
+                    "name": "Cheese 100g",
+                    "class_code": "КЛ 10005",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "9699714244286",
+                "qty": 0.5,
+                "storno": 0,
+                "sum": 101.15,
+                "sumR": 0,
+                "sumWD": 101.15,
+                "sumWT": 12.14,
+                "totalSum": 101.15
+            },
+            {
+                "item": {
+                    "id": 110,
+                    "art": "A110",
+                    "name": "Chocolate bar",
+                    "class_code": "КЛ 10010",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "2480873254442",
+                "qty": 2,
+                "storno": 0,
+                "sum": 193,
+                "sumR": 0,
+                "sumWD": 193,
+                "sumWT": 23.16,
+                "totalSum": 193
+            },
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1984715301896",
+                "qty": 1.2,
+                "storno": 0,
+                "sum": 1704.84,
+                "sumR": 0,
+                "sumWD": 1534.36,
+                "sumWT": 184.12,
+                "totalSum": 1534.36
+            },
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6278704398227",
+                "qty": 3,
+                "storno": 0,
+                "sum": 392.4,
+                "sumR": 0,
+                "sumWD": 392.4,
+                "sumWT": 47.09,
+                "totalSum": 392.4
+            }
+        ],
+        "qtyBuys": 9,
+        "qtyPositions": 5,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 3800.14,
+        "sumWithDiscs": 3432.43,
+        "total": 3432.43,
+        "aos": {},
+        "fiscal": "2606182983542"
+    },
+    {
+        "shop": 5,
+        "pos": 1,
+        "barcode": "77489",
+        "card": "4787307114",
+        "openDate": "08.08.26",
+        "openTime": "07:04:43",
+        "closeDate": "08.08.26",
+        "closeTime": "07:14:38",
+        "number": "109",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 3983.26
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 107,
+                    "art": "A107",
+                    "name": "Rice 1kg",
+                    "class_code": "КЛ 10007",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6216617526435",
+                "qty": 0.4,
+                "storno": 0,
+                "sum": 216.16,
+                "sumR": 0,
+                "sumWD": 216.16,
+                "sumWT": 25.94,
+                "totalSum": 216.16
+            },
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "3006062291750",
+                "qty": 1.1,
+                "storno": 0,
+                "sum": 1094.72,
+                "sumR": 0,
+                "sumWD": 952.41,
+                "sumWT": 114.29,
+                "totalSum": 952.41
+            },
+            {
+                "item": {
+                    "id": 102,
+                    "art": "A102",
+                    "name": "Bread white",
+                    "class_code": "КЛ 10002",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "2181703576866",
+                "qty": 0.5,
+                "storno": 0,
+                "sum": 368.85,
+                "sumR": 0,
+                "sumWD": 368.85,
+                "sumWT": 44.26,
+                "totalSum": 368.85
+            },
+            {
+                "item": {
+                    "id": 101,
+                    "art": "A101",
+                    "name": "Coca-Cola 0.5",
+                    "class_code": "КЛ 10001",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6849311995966",
+                "qty": 1.8,
+                "storno": 0,
+                "sum": 2445.84,
+                "sumR": 0,
+                "sumWD": 2445.84,
+                "sumWT": 293.5,
+                "totalSum": 2445.84
+            }
+        ],
+        "qtyBuys": 3.8,
+        "qtyPositions": 4,
+        "session": 2,
+        "type": 1,
+        "status": "success",
+        "sum": 4125.57,
+        "sumWithDiscs": 3983.26,
+        "total": 3983.26,
+        "aos": {},
+        "fiscal": "8751799982304"
+    },
+    {
+        "shop": 3,
+        "pos": 2,
+        "barcode": "19255",
+        "card": "3536634850",
+        "openDate": "04.08.26",
+        "openTime": "04:51:50",
+        "closeDate": "04.08.26",
+        "closeTime": "04:52:58",
+        "number": "110",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Смешанная",
+                "value": 3146.79
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 101,
+                    "art": "A101",
+                    "name": "Coca-Cola 0.5",
+                    "class_code": "КЛ 10001",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6978485822540",
+                "qty": 2.9,
+                "storno": 0,
+                "sum": 3146.79,
+                "sumR": 0,
+                "sumWD": 3146.79,
+                "sumWT": 377.61,
+                "totalSum": 3146.79
+            }
+        ],
+        "qtyBuys": 2.9,
+        "qtyPositions": 1,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 3146.79,
+        "sumWithDiscs": 3146.79,
+        "total": 3146.79,
+        "aos": {},
+        "fiscal": "3163151477389"
+    },
+    {
+        "shop": 2,
+        "pos": 2,
+        "barcode": "24056",
+        "card": "6525236180",
+        "openDate": "07.08.26",
+        "openTime": "06:11:50",
+        "closeDate": "07.08.26",
+        "closeTime": "06:23:11",
+        "number": "111",
+        "user": {
+            "id": 2,
+            "name": "Петров Алексей",
+            "text": "Петров Алексей"
+        },
+        "payments": [
+            {
+                "name": "Смешанная",
+                "value": 561.21
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 102,
+                    "art": "A102",
+                    "name": "Bread white",
+                    "class_code": "КЛ 10002",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "1706552018581",
+                "qty": 0.5,
+                "storno": 0,
+                "sum": 254.85,
+                "sumR": 0,
+                "sumWD": 254.85,
+                "sumWT": 30.58,
+                "totalSum": 254.85
+            },
+            {
+                "item": {
+                    "id": 102,
+                    "art": "A102",
+                    "name": "Bread white",
+                    "class_code": "КЛ 10002",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "3524164419964",
+                "qty": 0.3,
+                "storno": 0,
+                "sum": 306.36,
+                "sumR": 0,
+                "sumWD": 306.36,
+                "sumWT": 36.76,
+                "totalSum": 306.36
+            }
+        ],
+        "qtyBuys": 0.8,
+        "qtyPositions": 2,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 561.21,
+        "sumWithDiscs": 561.21,
+        "total": 561.21,
+        "aos": {},
+        "fiscal": "2511920694195"
+    },
+    {
+        "shop": 1,
+        "pos": 4,
+        "barcode": "38110",
+        "card": "6747213304",
+        "openDate": "02.08.26",
+        "openTime": "10:47:47",
+        "closeDate": "02.08.26",
+        "closeTime": "10:59:16",
+        "number": "112",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 4113.78
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 108,
+                    "art": "A108",
+                    "name": "Sugar 1kg",
+                    "class_code": "КЛ 10008",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "8578606236904",
+                "qty": 2.1,
+                "storno": 0,
+                "sum": 1909.53,
+                "sumR": 0,
+                "sumWD": 1756.77,
+                "sumWT": 210.81,
+                "totalSum": 1756.77
+            },
+            {
+                "item": {
+                    "id": 105,
+                    "art": "A105",
+                    "name": "Cheese 100g",
+                    "class_code": "КЛ 10005",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "5129365288296",
+                "qty": 0.1,
+                "storno": 0,
+                "sum": 93.28,
+                "sumR": 0,
+                "sumWD": 91.41,
+                "sumWT": 10.97,
+                "totalSum": 91.41
+            },
+            {
+                "item": {
+                    "id": 109,
+                    "art": "A109",
+                    "name": "Tea black 100g",
+                    "class_code": "КЛ 10009",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "4237653244173",
+                "qty": 2,
+                "storno": 0,
+                "sum": 300.6,
+                "sumR": 0,
+                "sumWD": 300.6,
+                "sumWT": 36.07,
+                "totalSum": 300.6
+            },
+            {
+                "item": {
+                    "id": 107,
+                    "art": "A107",
+                    "name": "Rice 1kg",
+                    "class_code": "КЛ 10007",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "4636723985620",
+                "qty": 2,
+                "storno": 0,
+                "sum": 1183.8,
+                "sumR": 0,
+                "sumWD": 1183.8,
+                "sumWT": 142.06,
+                "totalSum": 1183.8
+            },
+            {
+                "item": {
+                    "id": 110,
+                    "art": "A110",
+                    "name": "Chocolate bar",
+                    "class_code": "КЛ 10010",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1348145187122",
+                "qty": 0.6,
+                "storno": 0,
+                "sum": 781.2,
+                "sumR": 0,
+                "sumWD": 781.2,
+                "sumWT": 93.74,
+                "totalSum": 781.2
+            }
+        ],
+        "qtyBuys": 6.8,
+        "qtyPositions": 5,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 4268.41,
+        "sumWithDiscs": 4113.78,
+        "total": 4113.78,
+        "aos": {},
+        "fiscal": "6649460783220"
+    },
+    {
+        "shop": 3,
+        "pos": 1,
+        "barcode": "22920",
+        "card": "3337480211",
+        "openDate": "08.08.26",
+        "openTime": "07:12:23",
+        "closeDate": "08.08.26",
+        "closeTime": "07:14:35",
+        "number": "113",
+        "user": {
+            "id": 2,
+            "name": "Петров Алексей",
+            "text": "Петров Алексей"
+        },
+        "payments": [
+            {
+                "name": "Карта",
+                "value": 1983.6
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 102,
+                    "art": "A102",
+                    "name": "Bread white",
+                    "class_code": "КЛ 10002",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "7496712180269",
+                "qty": 1.9,
+                "storno": 0,
+                "sum": 1983.6,
+                "sumR": 0,
+                "sumWD": 1983.6,
+                "sumWT": 238.03,
+                "totalSum": 1983.6
+            }
+        ],
+        "qtyBuys": 1.9,
+        "qtyPositions": 1,
+        "session": 1,
+        "type": 1,
+        "status": "success",
+        "sum": 1983.6,
+        "sumWithDiscs": 1983.6,
+        "total": 1983.6,
+        "aos": {},
+        "fiscal": "6596151231841"
+    },
+    {
+        "shop": 4,
+        "pos": 1,
+        "barcode": "56267",
+        "card": "2532801186",
+        "openDate": "13.08.26",
+        "openTime": "04:58:22",
+        "closeDate": "13.08.26",
+        "closeTime": "05:12:35",
+        "number": "114",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Карта",
+                "value": 1698.74
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 105,
+                    "art": "A105",
+                    "name": "Cheese 100g",
+                    "class_code": "КЛ 10005",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "3834478398558",
+                "qty": 0.8,
+                "storno": 0,
+                "sum": 70.88,
+                "sumR": 0,
+                "sumWD": 70.88,
+                "sumWT": 8.51,
+                "totalSum": 70.88
+            },
+            {
+                "item": {
+                    "id": 110,
+                    "art": "A110",
+                    "name": "Chocolate bar",
+                    "class_code": "КЛ 10010",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1973049555724",
+                "qty": 0.4,
+                "storno": 0,
+                "sum": 392.56,
+                "sumR": 0,
+                "sumWD": 372.93,
+                "sumWT": 44.75,
+                "totalSum": 372.93
+            },
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6161306021179",
+                "qty": 0.6,
+                "storno": 0,
+                "sum": 467.28,
+                "sumR": 0,
+                "sumWD": 439.24,
+                "sumWT": 52.71,
+                "totalSum": 439.24
+            },
+            {
+                "item": {
+                    "id": 101,
+                    "art": "A101",
+                    "name": "Coca-Cola 0.5",
+                    "class_code": "КЛ 10001",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1323802240363",
+                "qty": 0.7,
+                "storno": 0,
+                "sum": 937.58,
+                "sumR": 0,
+                "sumWD": 815.69,
+                "sumWT": 97.88,
+                "totalSum": 815.69
+            }
+        ],
+        "qtyBuys": 2.5,
+        "qtyPositions": 4,
+        "session": 2,
+        "type": 1,
+        "status": "success",
+        "sum": 1868.3,
+        "sumWithDiscs": 1698.74,
+        "total": 1698.74,
+        "aos": {},
+        "fiscal": "6106819599158"
+    },
+    {
+        "shop": 7,
+        "pos": 1,
+        "barcode": "95121",
+        "card": "7132901301",
+        "openDate": "30.07.26",
+        "openTime": "06:35:36",
+        "closeDate": "30.07.26",
+        "closeTime": "06:41:51",
+        "number": "115",
+        "user": {
+            "id": 2,
+            "name": "Петров Алексей",
+            "text": "Петров Алексей"
+        },
+        "payments": [
+            {
+                "name": "Смешанная",
+                "value": 5991.96
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 101,
+                    "art": "A101",
+                    "name": "Coca-Cola 0.5",
+                    "class_code": "КЛ 10001",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6556862561940",
+                "qty": 2,
+                "storno": 0,
+                "sum": 427.6,
+                "sumR": 0,
+                "sumWD": 393.39,
+                "sumWT": 47.21,
+                "totalSum": 393.39
+            },
+            {
+                "item": {
+                    "id": 102,
+                    "art": "A102",
+                    "name": "Bread white",
+                    "class_code": "КЛ 10002",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "2995673817729",
+                "qty": 2.7,
+                "storno": 0,
+                "sum": 3192.75,
+                "sumR": 0,
+                "sumWD": 3192.75,
+                "sumWT": 383.13,
+                "totalSum": 3192.75
+            },
+            {
+                "item": {
+                    "id": 104,
+                    "art": "A104",
+                    "name": "Butter 200g",
+                    "class_code": "КЛ 10004",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "2320162716944",
+                "qty": 1,
+                "storno": 0,
+                "sum": 798.9,
+                "sumR": 0,
+                "sumWD": 798.9,
+                "sumWT": 95.87,
+                "totalSum": 798.9
+            },
+            {
+                "item": {
+                    "id": 102,
+                    "art": "A102",
+                    "name": "Bread white",
+                    "class_code": "КЛ 10002",
+                    "package_code": "Certifi"
+                },
+                "labels": [],
+                "barcode": "7433379803194",
+                "qty": 2.8,
+                "storno": 0,
+                "sum": 1606.92,
+                "sumR": 0,
+                "sumWD": 1606.92,
+                "sumWT": 192.83,
+                "totalSum": 1606.92
+            }
+        ],
+        "qtyBuys": 8.5,
+        "qtyPositions": 4,
+        "session": 2,
+        "type": 1,
+        "status": "success",
+        "sum": 6026.17,
+        "sumWithDiscs": 5991.96,
+        "total": 5991.96,
+        "aos": {},
+        "fiscal": "2953351416821"
+    },
+    {
+        "shop": 7,
+        "pos": 4,
+        "barcode": "40251",
+        "card": "5559418274",
+        "openDate": "08.08.26",
+        "openTime": "05:23:41",
+        "closeDate": "08.08.26",
+        "closeTime": "05:29:19",
+        "number": "116",
+        "user": {
+            "id": 1,
+            "name": "Иванова Мария",
+            "text": "Иванова Мария"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 1602.91
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "9217508537945",
+                "qty": 1.8,
+                "storno": 0,
+                "sum": 1619.1,
+                "sumR": 0,
+                "sumWD": 1602.91,
+                "sumWT": 192.35,
+                "totalSum": 1602.91
+            }
+        ],
+        "qtyBuys": 1.8,
+        "qtyPositions": 1,
+        "session": 2,
+        "type": 1,
+        "status": "success",
+        "sum": 1619.1,
+        "sumWithDiscs": 1602.91,
+        "total": 1602.91,
+        "aos": {},
+        "fiscal": "9409962171888"
+    },
+    {
+        "shop": 7,
+        "pos": 2,
+        "barcode": "62513",
+        "card": "4049424219",
+        "openDate": "30.07.26",
+        "openTime": "05:23:50",
+        "closeDate": "30.07.26",
+        "closeTime": "05:26:29",
+        "number": "117",
+        "user": {
+            "id": 2,
+            "name": "Петров Алексей",
+            "text": "Петров Алексей"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 2070.63
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 110,
+                    "art": "A110",
+                    "name": "Chocolate bar",
+                    "class_code": "КЛ 10010",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "4625513090455",
+                "qty": 1.2,
+                "storno": 0,
+                "sum": 269.4,
+                "sumR": 0,
+                "sumWD": 269.4,
+                "sumWT": 32.33,
+                "totalSum": 269.4
+            },
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "1876856198802",
+                "qty": 2.8,
+                "storno": 0,
+                "sum": 1876.28,
+                "sumR": 0,
+                "sumWD": 1801.23,
+                "sumWT": 216.15,
+                "totalSum": 1801.23
+            }
+        ],
+        "qtyBuys": 4,
+        "qtyPositions": 2,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 2145.68,
+        "sumWithDiscs": 2070.63,
+        "total": 2070.63,
+        "aos": {},
+        "fiscal": "6680225710959"
+    },
+    {
+        "shop": 6,
+        "pos": 2,
+        "barcode": "49274",
+        "card": "7644870077",
+        "openDate": "30.07.26",
+        "openTime": "09:15:48",
+        "closeDate": "30.07.26",
+        "closeTime": "09:26:41",
+        "number": "118",
+        "user": {
+            "id": 4,
+            "name": "",
+            "text": "Кассир #4"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 668.96
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "8067778456891",
+                "qty": 1.8,
+                "storno": 0,
+                "sum": 138.6,
+                "sumR": 0,
+                "sumWD": 119.2,
+                "sumWT": 14.3,
+                "totalSum": 119.2
+            },
+            {
+                "item": {
+                    "id": 107,
+                    "art": "A107",
+                    "name": "Rice 1kg",
+                    "class_code": "КЛ 10007",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "4564473797059",
+                "qty": 1.6,
+                "storno": 0,
+                "sum": 549.76,
+                "sumR": 0,
+                "sumWD": 549.76,
+                "sumWT": 65.97,
+                "totalSum": 549.76
+            }
+        ],
+        "qtyBuys": 3.4,
+        "qtyPositions": 2,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 688.36,
+        "sumWithDiscs": 668.96,
+        "total": 668.96,
+        "aos": {},
+        "fiscal": "6394909413688"
+    },
+    {
+        "shop": 7,
+        "pos": 3,
+        "barcode": "85629",
+        "card": "4211719688",
+        "openDate": "11.08.26",
+        "openTime": "05:49:24",
+        "closeDate": "11.08.26",
+        "closeTime": "06:01:18",
+        "number": "119",
+        "user": {
+            "id": 2,
+            "name": "Петров Алексей",
+            "text": "Петров Алексей"
+        },
+        "payments": [
+            {
+                "name": "Наличные",
+                "value": 4616.65
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 104,
+                    "art": "A104",
+                    "name": "Butter 200g",
+                    "class_code": "КЛ 10004",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "8254215916477",
+                "qty": 1.7,
+                "storno": 0,
+                "sum": 992.12,
+                "sumR": 0,
+                "sumWD": 992.12,
+                "sumWT": 119.05,
+                "totalSum": 992.12
+            },
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "5460292391294",
+                "qty": 1.9,
+                "storno": 0,
+                "sum": 2201.72,
+                "sumR": 0,
+                "sumWD": 1959.53,
+                "sumWT": 235.14,
+                "totalSum": 1959.53
+            },
+            {
+                "item": {
+                    "id": 103,
+                    "art": "A103",
+                    "name": "Milk 1L",
+                    "class_code": "КЛ 10003",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "5556991622903",
+                "qty": 1.5,
+                "storno": 0,
+                "sum": 1665,
+                "sumR": 0,
+                "sumWD": 1665,
+                "sumWT": 199.8,
+                "totalSum": 1665
+            }
+        ],
+        "qtyBuys": 5.1,
+        "qtyPositions": 3,
+        "session": 3,
+        "type": 1,
+        "status": "success",
+        "sum": 4858.84,
+        "sumWithDiscs": 4616.65,
+        "total": 4616.65,
+        "aos": {},
+        "fiscal": "9365533729559"
+    },
+    {
+        "shop": 7,
+        "pos": 1,
+        "barcode": "37815",
+        "card": "7200726056",
+        "openDate": "13.08.26",
+        "openTime": "06:19:07",
+        "closeDate": "13.08.26",
+        "closeTime": "06:29:25",
+        "number": "120",
+        "user": {
+            "id": 1,
+            "name": "Иванова Мария",
+            "text": "Иванова Мария"
+        },
+        "payments": [
+            {
+                "name": "Карта",
+                "value": 1646.77
+            }
+        ],
+        "positions": [
+            {
+                "item": {
+                    "id": 104,
+                    "art": "A104",
+                    "name": "Butter 200g",
+                    "class_code": "КЛ 10004",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "5127736957822",
+                "qty": 0.1,
+                "storno": 0,
+                "sum": 39.89,
+                "sumR": 0,
+                "sumWD": 39.89,
+                "sumWT": 4.79,
+                "totalSum": 39.89
+            },
+            {
+                "item": {
+                    "id": 106,
+                    "art": "A106",
+                    "name": "Apple 1kg",
+                    "class_code": "КЛ 10006",
+                    "package_code": ""
+                },
+                "labels": [],
+                "barcode": "6999251055617",
+                "qty": 1.1,
+                "storno": 0,
+                "sum": 1606.88,
+                "sumR": 0,
+                "sumWD": 1606.88,
+                "sumWT": 192.83,
+                "totalSum": 1606.88
+            }
+        ],
+        "qtyBuys": 1.2,
+        "qtyPositions": 2,
+        "session": 1,
+        "type": 1,
+        "status": "cancelled",
+        "sum": 1646.77,
+        "sumWithDiscs": 1646.77,
+        "total": 1646.77,
+        "aos": {},
+        "fiscal": ""
+    }
+]

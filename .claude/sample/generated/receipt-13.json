@@ -1,0 +1,52 @@
+{
+    "shop": 3,
+    "pos": 1,
+    "barcode": "22920",
+    "card": "3337480211",
+    "openDate": "08.08.26",
+    "openTime": "07:12:23",
+    "closeDate": "08.08.26",
+    "closeTime": "07:14:35",
+    "number": "113",
+    "user": {
+        "id": 2,
+        "name": "Петров Алексей",
+        "text": "Петров Алексей"
+    },
+    "payments": [
+        {
+            "name": "Карта",
+            "value": 1983.6
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 102,
+                "art": "A102",
+                "name": "Bread white",
+                "class_code": "КЛ 10002",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "7496712180269",
+            "qty": 1.9,
+            "storno": 0,
+            "sum": 1983.6,
+            "sumR": 0,
+            "sumWD": 1983.6,
+            "sumWT": 238.03,
+            "totalSum": 1983.6
+        }
+    ],
+    "qtyBuys": 1.9,
+    "qtyPositions": 1,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 1983.6,
+    "sumWithDiscs": 1983.6,
+    "total": 1983.6,
+    "aos": {},
+    "fiscal": "6596151231841"
+}

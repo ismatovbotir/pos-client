@@ -17,11 +17,11 @@ class ReceiptController extends Controller
         try {
             $receipt = Receipt::create([
                 'number' => $data['number'],
-                'close_date' => $data['closeDate'] ? Carbon::createFromFormat('d.m.y', $data['closeDate'])->startOfDay() : null,
+                'close_date' => $data['closeDate'] ? $this->parseCloseDate($data['closeDate']) : null,
                 'type' => $data['type'],
                 'status' => 'pending',
                 'total' => $data['total'],
-                'user' => $data['user']['name'] ?: $data['user']['text'],
+                'user' => data_get($data, 'user.name') ?: data_get($data, 'user.text'),
                 'payload' => $data,
             ]);
         } catch (\Throwable $e) {
@@ -33,5 +33,18 @@ class ReceiptController extends Controller
         return response()->json([
             'id' => $receipt->id,
         ], 200);
+    }
+
+    private function parseCloseDate(string $date): Carbon
+    {
+        foreach (['d.m.y', 'd.m.Y', 'Y-m-d'] as $format) {
+            try {
+                return Carbon::createFromFormat($format, $date)->startOfDay();
+            } catch (\Throwable) {
+                continue;
+            }
+        }
+
+        throw new \InvalidArgumentException("Unable to parse closeDate: {$date}");
     }
 }

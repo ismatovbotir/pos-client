@@ -1,0 +1,106 @@
+{
+    "shop": 1,
+    "pos": 4,
+    "barcode": "80070",
+    "card": "8696456880",
+    "openDate": "11.08.26",
+    "openTime": "10:16:33",
+    "closeDate": "11.08.26",
+    "closeTime": "10:28:38",
+    "number": "107",
+    "user": {
+        "id": 3,
+        "name": "Сидорова Ольга",
+        "text": "Сидорова Ольга"
+    },
+    "payments": [
+        {
+            "name": "Смешанная",
+            "value": 7268.35
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "8115422898029",
+            "qty": 2.9,
+            "storno": 0,
+            "sum": 3153.75,
+            "sumR": 0,
+            "sumWD": 3153.75,
+            "sumWT": 378.45,
+            "totalSum": 3153.75
+        },
+        {
+            "item": {
+                "id": 106,
+                "art": "A106",
+                "name": "Apple 1kg",
+                "class_code": "КЛ 10006",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "1617019102540",
+            "qty": 0.4,
+            "storno": 0,
+            "sum": 173,
+            "sumR": 0,
+            "sumWD": 173,
+            "sumWT": 20.76,
+            "totalSum": 173
+        },
+        {
+            "item": {
+                "id": 108,
+                "art": "A108",
+                "name": "Sugar 1kg",
+                "class_code": "КЛ 10008",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "4266946203280",
+            "qty": 2.5,
+            "storno": 0,
+            "sum": 3542.25,
+            "sumR": 0,
+            "sumWD": 3542.25,
+            "sumWT": 425.07,
+            "totalSum": 3542.25
+        },
+        {
+            "item": {
+                "id": 101,
+                "art": "A101",
+                "name": "Coca-Cola 0.5",
+                "class_code": "КЛ 10001",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "5114147472305",
+            "qty": 1.9,
+            "storno": 0,
+            "sum": 424.84,
+            "sumR": 0,
+            "sumWD": 399.35,
+            "sumWT": 47.92,
+            "totalSum": 399.35
+        }
+    ],
+    "qtyBuys": 7.7,
+    "qtyPositions": 4,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 7293.84,
+    "sumWithDiscs": 7268.35,
+    "total": 7268.35,
+    "aos": {},
+    "fiscal": "4661379511805"
+}

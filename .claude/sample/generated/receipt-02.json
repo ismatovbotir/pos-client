@@ -1,0 +1,52 @@
+{
+    "shop": 4,
+    "pos": 2,
+    "barcode": "50824",
+    "card": "6966003190",
+    "openDate": "30.07.26",
+    "openTime": "07:42:17",
+    "closeDate": "30.07.26",
+    "closeTime": "07:43:42",
+    "number": "102",
+    "user": {
+        "id": 3,
+        "name": "Сидорова Ольга",
+        "text": "Сидорова Ольга"
+    },
+    "payments": [
+        {
+            "name": "Карта",
+            "value": 596.96
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 108,
+                "art": "A108",
+                "name": "Sugar 1kg",
+                "class_code": "КЛ 10008",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "7716335008759",
+            "qty": 0.7,
+            "storno": 0,
+            "sum": 596.96,
+            "sumR": 0,
+            "sumWD": 596.96,
+            "sumWT": 71.64,
+            "totalSum": 596.96
+        }
+    ],
+    "qtyBuys": 0.7,
+    "qtyPositions": 1,
+    "session": 2,
+    "type": 1,
+    "status": "success",
+    "sum": 596.96,
+    "sumWithDiscs": 596.96,
+    "total": 596.96,
+    "aos": {},
+    "fiscal": "3264667611455"
+}

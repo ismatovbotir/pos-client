@@ -1,0 +1,52 @@
+{
+    "shop": 2,
+    "pos": 4,
+    "barcode": "43000",
+    "card": "4240773351",
+    "openDate": "01.08.26",
+    "openTime": "09:28:18",
+    "closeDate": "01.08.26",
+    "closeTime": "09:34:09",
+    "number": "103",
+    "user": {
+        "id": 3,
+        "name": "Сидорова Ольга",
+        "text": "Сидорова Ольга"
+    },
+    "payments": [
+        {
+            "name": "Смешанная",
+            "value": 2183.99
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 104,
+                "art": "A104",
+                "name": "Butter 200g",
+                "class_code": "КЛ 10004",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6909278364162",
+            "qty": 1.7,
+            "storno": 0,
+            "sum": 2183.99,
+            "sumR": 0,
+            "sumWD": 2183.99,
+            "sumWT": 262.08,
+            "totalSum": 2183.99
+        }
+    ],
+    "qtyBuys": 1.7,
+    "qtyPositions": 1,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 2183.99,
+    "sumWithDiscs": 2183.99,
+    "total": 2183.99,
+    "aos": {},
+    "fiscal": "5770809154607"
+}

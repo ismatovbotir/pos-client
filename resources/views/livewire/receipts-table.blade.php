@@ -59,6 +59,11 @@
                     <div class="receipt-meta">Receipt &#8470;{{ $selectedReceipt->number }}</div>
                     <div class="receipt-meta">{{ data_get($selectedReceipt->payload, 'openDate') }} {{ data_get($selectedReceipt->payload, 'openTime') }}</div>
                     <div class="receipt-meta">Cashier: {{ data_get($selectedReceipt->payload, 'user.name') ?: data_get($selectedReceipt->payload, 'user.text') }}</div>
+                    @if (data_get($selectedReceipt->payload, 'status'))
+                        <div class="receipt-status-badge receipt-status-{{ data_get($selectedReceipt->payload, 'status') === 'success' ? 'success' : 'other' }}">
+                            {{ strtoupper(data_get($selectedReceipt->payload, 'status')) }}
+                        </div>
+                    @endif
                 </div>
 
                 <div class="receipt-divider"></div>
@@ -105,7 +110,7 @@
 
                 <div class="receipt-footer">
                     @if (data_get($selectedReceipt->payload, 'closeDate'))
-                        <div>Closed: {{ data_get($selectedReceipt->payload, 'closeDate') }}</div>
+                        <div>Closed: {{ data_get($selectedReceipt->payload, 'closeDate') }} {{ data_get($selectedReceipt->payload, 'closeTime') }}</div>
                     @endif
                     @if (data_get($selectedReceipt->payload, 'fiscal'))
                         <div>Fiscal: {{ data_get($selectedReceipt->payload, 'fiscal') }}</div>

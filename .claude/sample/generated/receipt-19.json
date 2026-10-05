@@ -1,0 +1,88 @@
+{
+    "shop": 7,
+    "pos": 3,
+    "barcode": "85629",
+    "card": "4211719688",
+    "openDate": "11.08.26",
+    "openTime": "05:49:24",
+    "closeDate": "11.08.26",
+    "closeTime": "06:01:18",
+    "number": "119",
+    "user": {
+        "id": 2,
+        "name": "Петров Алексей",
+        "text": "Петров Алексей"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 4616.65
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 104,
+                "art": "A104",
+                "name": "Butter 200g",
+                "class_code": "КЛ 10004",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "8254215916477",
+            "qty": 1.7,
+            "storno": 0,
+            "sum": 992.12,
+            "sumR": 0,
+            "sumWD": 992.12,
+            "sumWT": 119.05,
+            "totalSum": 992.12
+        },
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "5460292391294",
+            "qty": 1.9,
+            "storno": 0,
+            "sum": 2201.72,
+            "sumR": 0,
+            "sumWD": 1959.53,
+            "sumWT": 235.14,
+            "totalSum": 1959.53
+        },
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "5556991622903",
+            "qty": 1.5,
+            "storno": 0,
+            "sum": 1665,
+            "sumR": 0,
+            "sumWD": 1665,
+            "sumWT": 199.8,
+            "totalSum": 1665
+        }
+    ],
+    "qtyBuys": 5.1,
+    "qtyPositions": 3,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 4858.84,
+    "sumWithDiscs": 4616.65,
+    "total": 4616.65,
+    "aos": {},
+    "fiscal": "9365533729559"
+}

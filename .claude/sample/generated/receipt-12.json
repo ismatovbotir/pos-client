@@ -1,0 +1,124 @@
+{
+    "shop": 1,
+    "pos": 4,
+    "barcode": "38110",
+    "card": "6747213304",
+    "openDate": "02.08.26",
+    "openTime": "10:47:47",
+    "closeDate": "02.08.26",
+    "closeTime": "10:59:16",
+    "number": "112",
+    "user": {
+        "id": 4,
+        "name": "",
+        "text": "Кассир #4"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 4113.78
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 108,
+                "art": "A108",
+                "name": "Sugar 1kg",
+                "class_code": "КЛ 10008",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "8578606236904",
+            "qty": 2.1,
+            "storno": 0,
+            "sum": 1909.53,
+            "sumR": 0,
+            "sumWD": 1756.77,
+            "sumWT": 210.81,
+            "totalSum": 1756.77
+        },
+        {
+            "item": {
+                "id": 105,
+                "art": "A105",
+                "name": "Cheese 100g",
+                "class_code": "КЛ 10005",
+                "package_code": "Certifi"
+            },
+            "labels": [],
+            "barcode": "5129365288296",
+            "qty": 0.1,
+            "storno": 0,
+            "sum": 93.28,
+            "sumR": 0,
+            "sumWD": 91.41,
+            "sumWT": 10.97,
+            "totalSum": 91.41
+        },
+        {
+            "item": {
+                "id": 109,
+                "art": "A109",
+                "name": "Tea black 100g",
+                "class_code": "КЛ 10009",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "4237653244173",
+            "qty": 2,
+            "storno": 0,
+            "sum": 300.6,
+            "sumR": 0,
+            "sumWD": 300.6,
+            "sumWT": 36.07,
+            "totalSum": 300.6
+        },
+        {
+            "item": {
+                "id": 107,
+                "art": "A107",
+                "name": "Rice 1kg",
+                "class_code": "КЛ 10007",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "4636723985620",
+            "qty": 2,
+            "storno": 0,
+            "sum": 1183.8,
+            "sumR": 0,
+            "sumWD": 1183.8,
+            "sumWT": 142.06,
+            "totalSum": 1183.8
+        },
+        {
+            "item": {
+                "id": 110,
+                "art": "A110",
+                "name": "Chocolate bar",
+                "class_code": "КЛ 10010",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "1348145187122",
+            "qty": 0.6,
+            "storno": 0,
+            "sum": 781.2,
+            "sumR": 0,
+            "sumWD": 781.2,
+            "sumWT": 93.74,
+            "totalSum": 781.2
+        }
+    ],
+    "qtyBuys": 6.8,
+    "qtyPositions": 5,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 4268.41,
+    "sumWithDiscs": 4113.78,
+    "total": 4113.78,
+    "aos": {},
+    "fiscal": "6649460783220"
+}

@@ -15,6 +15,7 @@ class SendReceipts extends Command
     public function handle(): int
     {
         $address = config('services.server.address');
+        $port = config('services.server.port');
         $headerKey = config('services.server.header_key');
         $headerValue = config('services.server.header_value');
 
@@ -22,6 +23,12 @@ class SendReceipts extends Command
             $this->error('SERVER_ADDRESS, SERVER_HEADER_KEY or SERVER_HEADER_VALUE is not set in .env');
 
             return self::FAILURE;
+        }
+
+        if ($port) {
+            $parts = parse_url($address);
+            $url = ($parts['scheme'] ?? 'http').'://'.($parts['host'] ?? $address).':'.$port;
+            $address = $url.($parts['path'] ?? '').(isset($parts['query']) ? '?'.$parts['query'] : '');
         }
 
         $receipts = Receipt::where('sync', false)->get();

@@ -137,6 +137,23 @@
             color: #4b5563;
             font-size: 0.75rem;
         }
+        .receipt-status-badge {
+            display: inline-block;
+            margin-top: 0.375rem;
+            padding: 0.125rem 0.5rem;
+            border-radius: 9999px;
+            font-size: 0.6875rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        .receipt-status-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .receipt-status-other {
+            background: #fee2e2;
+            color: #991b1b;
+        }
         .receipt-divider {
             border-top: 1px dashed #9ca3af;
             margin: 0.6rem 0;

@@ -1,0 +1,88 @@
+{
+    "shop": 8,
+    "pos": 3,
+    "barcode": "94553",
+    "card": "7159089097",
+    "openDate": "05.08.26",
+    "openTime": "09:37:45",
+    "closeDate": "05.08.26",
+    "closeTime": "09:45:36",
+    "number": "106",
+    "user": {
+        "id": 4,
+        "name": "",
+        "text": "Кассир #4"
+    },
+    "payments": [
+        {
+            "name": "Карта",
+            "value": 5857.49
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 106,
+                "art": "A106",
+                "name": "Apple 1kg",
+                "class_code": "КЛ 10006",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "9717162399345",
+            "qty": 2.4,
+            "storno": 0,
+            "sum": 2186.16,
+            "sumR": 0,
+            "sumWD": 2186.16,
+            "sumWT": 262.34,
+            "totalSum": 2186.16
+        },
+        {
+            "item": {
+                "id": 110,
+                "art": "A110",
+                "name": "Chocolate bar",
+                "class_code": "КЛ 10010",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "1741648048234",
+            "qty": 2.1,
+            "storno": 0,
+            "sum": 1510.32,
+            "sumR": 0,
+            "sumWD": 1510.32,
+            "sumWT": 181.24,
+            "totalSum": 1510.32
+        },
+        {
+            "item": {
+                "id": 104,
+                "art": "A104",
+                "name": "Butter 200g",
+                "class_code": "КЛ 10004",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "1541129894772",
+            "qty": 1.8,
+            "storno": 0,
+            "sum": 2374.74,
+            "sumR": 0,
+            "sumWD": 2161.01,
+            "sumWT": 259.32,
+            "totalSum": 2161.01
+        }
+    ],
+    "qtyBuys": 6.3,
+    "qtyPositions": 3,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 6071.22,
+    "sumWithDiscs": 5857.49,
+    "total": 5857.49,
+    "aos": {},
+    "fiscal": "9926499589900"
+}

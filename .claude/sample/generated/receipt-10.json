@@ -1,0 +1,52 @@
+{
+    "shop": 3,
+    "pos": 2,
+    "barcode": "19255",
+    "card": "3536634850",
+    "openDate": "04.08.26",
+    "openTime": "04:51:50",
+    "closeDate": "04.08.26",
+    "closeTime": "04:52:58",
+    "number": "110",
+    "user": {
+        "id": 4,
+        "name": "",
+        "text": "Кассир #4"
+    },
+    "payments": [
+        {
+            "name": "Смешанная",
+            "value": 3146.79
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 101,
+                "art": "A101",
+                "name": "Coca-Cola 0.5",
+                "class_code": "КЛ 10001",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6978485822540",
+            "qty": 2.9,
+            "storno": 0,
+            "sum": 3146.79,
+            "sumR": 0,
+            "sumWD": 3146.79,
+            "sumWT": 377.61,
+            "totalSum": 3146.79
+        }
+    ],
+    "qtyBuys": 2.9,
+    "qtyPositions": 1,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 3146.79,
+    "sumWithDiscs": 3146.79,
+    "total": 3146.79,
+    "aos": {},
+    "fiscal": "3163151477389"
+}

@@ -1,0 +1,52 @@
+{
+    "shop": 7,
+    "pos": 4,
+    "barcode": "40251",
+    "card": "5559418274",
+    "openDate": "08.08.26",
+    "openTime": "05:23:41",
+    "closeDate": "08.08.26",
+    "closeTime": "05:29:19",
+    "number": "116",
+    "user": {
+        "id": 1,
+        "name": "Иванова Мария",
+        "text": "Иванова Мария"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 1602.91
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 106,
+                "art": "A106",
+                "name": "Apple 1kg",
+                "class_code": "КЛ 10006",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "9217508537945",
+            "qty": 1.8,
+            "storno": 0,
+            "sum": 1619.1,
+            "sumR": 0,
+            "sumWD": 1602.91,
+            "sumWT": 192.35,
+            "totalSum": 1602.91
+        }
+    ],
+    "qtyBuys": 1.8,
+    "qtyPositions": 1,
+    "session": 2,
+    "type": 1,
+    "status": "success",
+    "sum": 1619.1,
+    "sumWithDiscs": 1602.91,
+    "total": 1602.91,
+    "aos": {},
+    "fiscal": "9409962171888"
+}

@@ -3,11 +3,11 @@
     "pos": 1,
     "barcode": "12345",
     "card": "1234567890",
-    "openDate": "06.08.26",
-    "openTime": "08:52:51",
-    "closeDate": "",
+    "openDate": "12.08.26",
+    "openTime": "17:52:46",
+    "closeDate": "12.08.26",
+    "closeTime":"17:55:36",
     "number": "121",
-    "total":0,
     "user": {
         "id": 1,
         "name": "��������� �������������",
@@ -79,6 +79,10 @@
     "qtyPositions": 3,
     "session": 1,
     "type": 1,
+    "status": "success",
+    "sum": 2839.09,
+    "sumWithDiscs": 2728.92,
+    "total": 2728.92,
     "aos": {},
     "fiscal": ""
 }

@@ -1,0 +1,70 @@
+{
+    "shop": 6,
+    "pos": 2,
+    "barcode": "49274",
+    "card": "7644870077",
+    "openDate": "30.07.26",
+    "openTime": "09:15:48",
+    "closeDate": "30.07.26",
+    "closeTime": "09:26:41",
+    "number": "118",
+    "user": {
+        "id": 4,
+        "name": "",
+        "text": "Кассир #4"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 668.96
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "8067778456891",
+            "qty": 1.8,
+            "storno": 0,
+            "sum": 138.6,
+            "sumR": 0,
+            "sumWD": 119.2,
+            "sumWT": 14.3,
+            "totalSum": 119.2
+        },
+        {
+            "item": {
+                "id": 107,
+                "art": "A107",
+                "name": "Rice 1kg",
+                "class_code": "КЛ 10007",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "4564473797059",
+            "qty": 1.6,
+            "storno": 0,
+            "sum": 549.76,
+            "sumR": 0,
+            "sumWD": 549.76,
+            "sumWT": 65.97,
+            "totalSum": 549.76
+        }
+    ],
+    "qtyBuys": 3.4,
+    "qtyPositions": 2,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 688.36,
+    "sumWithDiscs": 668.96,
+    "total": 668.96,
+    "aos": {},
+    "fiscal": "6394909413688"
+}

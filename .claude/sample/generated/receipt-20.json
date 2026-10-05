@@ -1,0 +1,70 @@
+{
+    "shop": 7,
+    "pos": 1,
+    "barcode": "37815",
+    "card": "7200726056",
+    "openDate": "13.08.26",
+    "openTime": "06:19:07",
+    "closeDate": "13.08.26",
+    "closeTime": "06:29:25",
+    "number": "120",
+    "user": {
+        "id": 1,
+        "name": "Иванова Мария",
+        "text": "Иванова Мария"
+    },
+    "payments": [
+        {
+            "name": "Карта",
+            "value": 1646.77
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 104,
+                "art": "A104",
+                "name": "Butter 200g",
+                "class_code": "КЛ 10004",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "5127736957822",
+            "qty": 0.1,
+            "storno": 0,
+            "sum": 39.89,
+            "sumR": 0,
+            "sumWD": 39.89,
+            "sumWT": 4.79,
+            "totalSum": 39.89
+        },
+        {
+            "item": {
+                "id": 106,
+                "art": "A106",
+                "name": "Apple 1kg",
+                "class_code": "КЛ 10006",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6999251055617",
+            "qty": 1.1,
+            "storno": 0,
+            "sum": 1606.88,
+            "sumR": 0,
+            "sumWD": 1606.88,
+            "sumWT": 192.83,
+            "totalSum": 1606.88
+        }
+    ],
+    "qtyBuys": 1.2,
+    "qtyPositions": 2,
+    "session": 1,
+    "type": 1,
+    "status": "cancelled",
+    "sum": 1646.77,
+    "sumWithDiscs": 1646.77,
+    "total": 1646.77,
+    "aos": {},
+    "fiscal": ""
+}

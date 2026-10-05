@@ -1,0 +1,70 @@
+{
+    "shop": 5,
+    "pos": 4,
+    "barcode": "10727",
+    "card": "2568552493",
+    "openDate": "03.08.26",
+    "openTime": "07:46:02",
+    "closeDate": "03.08.26",
+    "closeTime": "07:53:06",
+    "number": "104",
+    "user": {
+        "id": 4,
+        "name": "",
+        "text": "Кассир #4"
+    },
+    "payments": [
+        {
+            "name": "Карта",
+            "value": 3538.62
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 109,
+                "art": "A109",
+                "name": "Tea black 100g",
+                "class_code": "КЛ 10009",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "2592193042791",
+            "qty": 2.9,
+            "storno": 0,
+            "sum": 2140.49,
+            "sumR": 0,
+            "sumWD": 2054.87,
+            "sumWT": 246.58,
+            "totalSum": 2054.87
+        },
+        {
+            "item": {
+                "id": 103,
+                "art": "A103",
+                "name": "Milk 1L",
+                "class_code": "КЛ 10003",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6896625842329",
+            "qty": 2.5,
+            "storno": 0,
+            "sum": 1483.75,
+            "sumR": 0,
+            "sumWD": 1483.75,
+            "sumWT": 178.05,
+            "totalSum": 1483.75
+        }
+    ],
+    "qtyBuys": 5.4,
+    "qtyPositions": 2,
+    "session": 1,
+    "type": 1,
+    "status": "success",
+    "sum": 3624.24,
+    "sumWithDiscs": 3538.62,
+    "total": 3538.62,
+    "aos": {},
+    "fiscal": "1831180984044"
+}

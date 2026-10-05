@@ -1,0 +1,52 @@
+{
+    "shop": 2,
+    "pos": 4,
+    "barcode": "74993",
+    "card": "2578456139",
+    "openDate": "07.08.26",
+    "openTime": "09:28:56",
+    "closeDate": "07.08.26",
+    "closeTime": "09:35:51",
+    "number": "101",
+    "user": {
+        "id": 1,
+        "name": "Иванова Мария",
+        "text": "Иванова Мария"
+    },
+    "payments": [
+        {
+            "name": "Наличные",
+            "value": 874.5
+        }
+    ],
+    "positions": [
+        {
+            "item": {
+                "id": 109,
+                "art": "A109",
+                "name": "Tea black 100g",
+                "class_code": "КЛ 10009",
+                "package_code": ""
+            },
+            "labels": [],
+            "barcode": "6661305051003",
+            "qty": 2.2,
+            "storno": 0,
+            "sum": 874.5,
+            "sumR": 0,
+            "sumWD": 874.5,
+            "sumWT": 104.94,
+            "totalSum": 874.5
+        }
+    ],
+    "qtyBuys": 2.2,
+    "qtyPositions": 1,
+    "session": 3,
+    "type": 1,
+    "status": "success",
+    "sum": 874.5,
+    "sumWithDiscs": 874.5,
+    "total": 874.5,
+    "aos": {},
+    "fiscal": "7045425604445"
+}
